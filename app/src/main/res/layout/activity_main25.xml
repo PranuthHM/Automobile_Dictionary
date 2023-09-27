@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="The Maruti Suzuki Wagon R (or WagonR) is a city car manufactured and marketed by Suzuki through its subsidiary Maruti Suzuki primarily for the Indian market since 1999. The Wagon R was launched in India on 18 December 1999, and has since undergone several upgrades. The second-generation Wagon R model and styling was also shared with the Karimun Wagon R for the Indonesian market and the Wagon R for the Pakistani market, despite several differences. While initially the Maruti-built Wagon R shared its platform from the Japanese market Wagon R kei car, the third generation Maruti-built Wagon R is unrelated with the later versions of the Wagon R sold in Japan. Instead, the car was built from ground up above the HEARTECT platform. The Wagon R built in India is also exported to several neighbouring countries, including Bangladesh, Bhutan, Nepal and Sri Lanka, dropping the &quot;Maruti&quot; moniker. As of 31 December 2019, the Wagon R has been sold over 2.4 million units in India. The third generation Wagon R was launched in India on 23 January 2019. The third generation Wagon R shares its HEARTECT platform with the Ignis, among other distant models including Celerio, Baleno, Swift and Wagon R kei car. As the result, the car is lighter than the outgoing model while also having a stronger body structure. As Suzuki distanced the Indian market Wagon R with the Japanese market Wagon R which its dimensions stuck within the kei car regulation, the third generation Wagon R become larger than its predecessor. The wheelbase is 35 mm (1.4 in) longer and the width has increased by a significant 125 mm (4.9 in). As the result, the interior size is increased significantly, the car offers larger legroom and shoulder room at the back, and would be able to properly carry five people instead of four. Capitalizing its size changes, Maruti Suzuki is marketing the car as the &quot;Big New Wagon R&quot;. Other than India, the car is also exported to Bangladesh, Nepal and Sri Lanka. The latter marketed the car as Grand Wagon R  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link18"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Wagon-R"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

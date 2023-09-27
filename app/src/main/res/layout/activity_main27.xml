@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="The Suzuki Brezza (known as Vitara Brezza for the first generation) is a subcompact crossover SUV from Suzuki and manufactured by Maruti Suzuki in India. The Brezza is the first Suzuki-branded car which was fully developed in India. The model was designed as a smaller alternative to the global market Vitara and targeted to young audiences. It is only available for right-hand drive emerging markets in Asia and Africa. The first-generation model was also marketed by Toyota as the Toyota Urban Cruiser between 2020 and 2022. As in the original Vitara model, the name &quot;Vitara&quot; is derived from English word &quot;vital,&quot; as in &quot;vitality,&quot; while the name &quot;Brezza&quot; means &quot;breeze&quot; in Italian. The vehicle retained the body shell platform of previous generation with major revisions. It came with revised front and rear fascia, redesigned C-pillar, thicker body claddings, redesigned 16-inch alloy wheels, shark fin-type antenna and electric sunroof. The dimensions are also nearly identical to the outgoing model, except for the 45 mm (1.8 in) height increase due to the shark fin antenna. On the interior, the dashboard received a layered design with floating car audio display, along with redesigned steering wheel (with additional telescopic adjustment) and instrument cluster, wider rear bench seat, and addition of wireless charging dock, interior ambient lighting and rear AC vents. Electronic Stability Program (ESP) and Hill-Start Assist (HSA) are standard across the lineup, with six airbags also standard for the flagship ZXi+ grade.  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Breeza"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

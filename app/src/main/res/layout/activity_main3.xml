@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.85"
+        android:background="@drawable/signupimg"
+        android:scaleType="centerCrop"
+        android:src="@drawable/signupimg"
+        tools:layout_editor_absoluteX="-15dp"
+        tools:layout_editor_absoluteY="-16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Automobile Dictionary"
+        android:textColor="#ECE9E9"
+        android:textColorHint="#FAF8F8"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="135dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="80dp"
+        android:text="Username :"
+        android:textColor="#F6F5F5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/u"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="140dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:text="Password :"
+        android:textColor="#FAF7F7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/p"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/sig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <EditText
+        android:id="@+id/u"
+        android:layout_width="218dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/p"
+        android:layout_width="218dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

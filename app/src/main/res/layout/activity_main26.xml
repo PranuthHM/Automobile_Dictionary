@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="The Suzuki Swift (Japanese: スズキ・スイフト, Suzuki Suifuto) is a supermini car (B-segment) produced by Suzuki. The vehicle is classified as a B-segment marque in the European single market, a segment referred to as a supermini in the British Isles. Prior to this, the &quot;Swift&quot; nameplate had been applied and purchased from Swift Engineering (previously known as Swift Cars) to the rebadged Suzuki Cultus in numerous export markets since 1983 and became its own model since 2004. Currently, the Swift is positioned between Ignis and Baleno in Suzuki hatchback global lineup. The third generation Swift debuted in Japan on 27 December 2016. The hatchback is built on the HEARTECT platform which made its debut in 2015 and is the same lightweight platform used for the production of the hatchbacks Baleno and Ignis. This new lightweight platform made the third generation Swift roughly 10% lighter than the previous generation. Only 5-door body style is available, even though the car looks like a 3-door because the rear door handles are moved to the C-pillar. Despite having similar size as the previous generation (10 mm shorter, 10 mm lower, 40 mm wider and 20 mm longer wheelbase), the boot space is also roughly 20% more spacious (now 246 litres, up to 579 liters when the rear seats are folded), but still smaller than its competitors.  This generation is also the first that uses the newly developed Boosterjet direct injection turbocharged petrol engines and Smart Hybrid Vehicle by Suzuki (SHVS) mild hybrid technologies. The compact and lightweight 12 or 48-volt mild hybrid system features a belt-driven Integrated Starter Generator (ISG), which assists the engine during acceleration and helps recoup energy via regenerative braking.  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link19"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Swift"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

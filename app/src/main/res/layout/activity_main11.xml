@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="The Tesla Model 3 is an electric car produced by American automaker Tesla, Inc. It is a battery-powered four-door sedan that is marketed in the compact-executive segment. Limited production of the Model 3 began in mid-2017, with the first production vehicle rolling off the assembly line on July 7, 2017. The official launch and delivery of the first 30 cars took place on July 28 The Model 3 is considered as a mid-size car in the US and a large family car in Europe.  The base Model 3 delivers an EPA-rated all-electric range of 272 miles (438 km) and the Long Range version delivers 358 miles (576 km).[17] According to Tesla, the Model 3 carries full self-driving hardware, with periodic software updates adding functionality.  The Model 3 was marketed as being more affordable to more people than previous models by Tesla. Since early 2020, the Model 3 is the bestselling electric car in world history, and, in June 2021, became the first electric car to pass the 1 million global sales milestone.] The Model 3 has been the world's top selling plug-in electric car (PEV) for three years running, from 2018 to 2020. It has also been the bestselling PEV in the United States for three consecutive years, 2018 to 2020, the top selling PEV in Europe in 2019, and the bestselling PEV in China in 2020. During an interview recorded in 2006 Musk referred to &quot;Model 2&quot; (later Tesla Model S), and to &quot;Model 3&quot;. The Model 3 was codenamed Tesla &quot;BlueStar&quot; in the original business plan in 2007. An intended name of &quot;Model E&quot; was not used owing to Ford's trademark for an electric vehicle expected to be released by Ford in early 2019. Model 3, originally stylized as &quot;Model ☰&quot;, was announced on Musk's Twitter account on July 16, 2014. A 2015-presentation by JB Straubel used the name &quot;Model III&quot;.As of 2016 Musk had wanted the three models to spell SEX, but settled for &quot;S3X&quot;. In early 2017, after trademark opposition regarding Adidas's three stripes logo, the triplicate horizontal-bar stylization was abandoned and changed to a numeric &quot;3&quot;  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tesla Model-3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

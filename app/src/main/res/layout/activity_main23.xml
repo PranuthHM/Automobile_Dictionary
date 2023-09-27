@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity18">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="409dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="24dp"
+        android:text="The Toyota Innova is a series of multi-purpose vehicles (MPV) manufactured by the Japanese carmaker Toyota since 2004, mainly sold with three-row seating. Its official name in Indonesia is Toyota Kijang Innova, while for other countries it is simply called &quot;Innova&quot;. For the second generation, it is known as Toyota Innova Crysta in India and Thailand. For the third generation, it received another moniker in Indonesia as the Toyota Kijang Innova Zenix and in India as the Toyota Innova HyCross. The Innova is the replacement for wagon versions of Kijang (internally known as the Toyota Utility Vehicle), which was also marketed under different names such as Tamaraw FX/Revo, Unser, Zace and Condor. Like the outgoing Kijang, the first two generations (2004–2022) of the Innova are rear-wheel-drive vehicles built on the body-on-frame chassis shared with the Hilux pickup truck and the Fortuner SUV under the IMV project, instead of the unibody construction commonly used by MPVs of its era. The chassis was adopted due to the perceived strength and durability which are preferred by customers mainly in Indonesia. The third-generation model introduced in 2022 switched to front-wheel-drive layout, using the GA-C platform with a unibody chassis. The change was made to make use of the hybrid powertrain (which the IMV platform cannot utilise), and to give the comfort benefits of the front-wheel-drive layout.  The Innova first entered production in Indonesia in August 2004 and has been manufactured in other emerging countries such as India, Malaysia, the Philippines, Taiwan and Vietnam. The Innova has also been marketed in Brunei, Cambodia, Myanmar, Thailand, GCC countries, Ecuador, Egypt, Jamaica and Argentina. The name Innova comes from the English word 'innovate'.  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Innova Crysta"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

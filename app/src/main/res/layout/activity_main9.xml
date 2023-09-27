@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.97"
+        android:background="@drawable/tataaaaback"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tataaaaback"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="349dp"
+        android:layout_height="167dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tatalogo" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="191dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        app:srcCompat="@drawable/hexa" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="195dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView21"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        app:srcCompat="@drawable/altroz" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="190dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Click here to know more about Hexa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="190dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        android:text="Click here4 to know more about Altroz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button12"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="191dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12"
+        app:srcCompat="@drawable/tiago" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="191dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toBottomOf="@+id/button14"
+        app:srcCompat="@drawable/harrier" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="190dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Click here to know more about Tiago EV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="190dp"
+        android:layout_height="64dp"
+        android:text="Click here to know more about Harrier"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toEndOf="@+id/button15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:layout_constraintVertical_bias="0.079" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

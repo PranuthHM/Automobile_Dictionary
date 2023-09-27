@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity21">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="404dp"
+        android:layout_height="635dp"
+        android:layout_marginTop="24dp"
+        android:text="The Tata Harrier is a five-seater, diesel-engined compact crossover SUV produced by the Indian automaker Tata Motors Limited. It was launched in Indian market on 23 January 2019 and is positioned between the subcompact Tata Nexon and the mid-size Tata Safari. Known with the project code Q501 during the development phase, this mid-size SUV was previewed as the Tata H5X concept car. The reduction name 'Harrier' was announced by the parent company in the summer of 2018. The car is a C-segment SUV based on the OmegaArc platform, an essentially re-engineered version of the Jaguar Land Rover D8 platform adopted by models such as Range Rover Evoque, Discovery Sport and Jaguar E-Pace.[8] OMEGARC stands for Optimal Modular Efficient Global Advanced Architecture. This is a monocoque construction. It has crumple zones for safety. The OmegaArc compared to the original D8 has been redesigned to lower production costs by adopting different alloys and rear suspension with twist-beam scheme and panhard rod with coil spring, cheaper than the multilink of the Jaguar Land Rover models, while the front axle maintains the same MacPherson strut with coil spring and anti roll bar. The body has smaller amounts of high-strength steel. Change also include engines and transmissions. The Harrier has front-wheel drive, four-wheel drive is not yet available, the braking system uses ventilated discs at the front, while the rear uses drums. The engine is the 2.0 litre. Multijet 16-valve four-cylinder turbo diesel with common rail direct injection, variable-geometry turbocharger, delivering 140 horsepower (104 kW; 142 PS) and 350 N⋅m (258 lb⋅ft; 36 kg⋅m) of torque, produced by Fiat (FCA India) in Pune. The same power plant is also utilised by the Jeep Compass and MG Hector in the Indian market. In the Harrier, Tata Motors uses the commercial name Kryotec for the engine instead.  Internally, the Harrier introduces a new 8.8-inch touchscreen infotainment system equipped with Android Auto, the instrument cluster has a 7-inch TFT display. Top trims are equipped with six airbags, ESP stability control, and traction control as standard. Three driving modes (Eco, City, and Sport), and a Terrain Response System (inherited from Land Rover) with three selectable modes (Normal, Wet, and Rough) are also on offer. Production started in the month of October 2018, at the new assembly line in the Pune plant.  In October 2019, Tata Motors launched Tata Harrier #Dark edition. As the name suggests, the interiors and exteriors of the car are full black. Apart from it, there are no changes in the mechanical front.  In February 2020, the Harrier received feature updates including a panoramic sunroof, increased power output and an automatic transmission sourced from Hyundai. Although the horsepower was increased to 170 metric horsepower (168 hp; 125 kW).  In November 2020, the Harrier again received feature updates as they launched the Tata Harrier Camo edition, with military-style visuals. Feature update include roof rails, side steps and front parking sensors. The cabin gets back seat organizer, sunshades, 3D molded mats and 3D trunk mats, and anti-skid dash mats.   In February 2023, the Harrier and Safari both got mild updates including an all-new 10.25” touchscreen infotainment system with a 7” digital instrument cluster, 360-degree surround view camera, ADAS semi-autonomous driving functionalities and a new Red #Dark edition which is the same #Dark edition as before but with a red interior and red accents on the front grille. Mechanically, this version too remains unchanged. However, earlier in January 2023 at the Auto Expo an all-electric Harrier EV concept with AWD was showcased alongside the aforementioned Harrier and Safari Red #Dark editions, set to go into production in late-2024 according to company officials. This will also include automatic transmission.  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Harrier"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

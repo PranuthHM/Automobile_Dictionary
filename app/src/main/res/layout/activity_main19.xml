@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity19">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="409dp"
+        android:layout_height="524dp"
+        android:layout_marginTop="24dp"
+        android:text="The Tata Altroz is a subcompact car/supermini manufactured by Tata Motors. The Altroz was revealed at the 89th Geneva International Motor Show alongside the new Buzzard, Buzzard Sport, and H2X compact SUV concept.[1] It was launched to the Indian market on 22 January 2020.[2][3] The name &quot;Altroz&quot; was inspired by name of bird species, Albatross. At present, the Altroz has three engines on offer, which are 1.2-litre three-cylinder petrol, 1.5-litre turbodiesel and a 1.2-litre three-cylinder turbocharged petrol There is a 5-speed manual transmission on offer, with an optional wet-clutch DCT automatic known as Altroz DCA. An electric version of the Altroz is expected to launch on sale around 2022. The DCA version of India’s premium and safest hatchback is equipped with several segment-first features. These include a wet clutch with active cooling technology, machine learning, shift by wire technology, self-healing mechanism, and auto park lock. The 6-speed DCT gearbox is paired with the same 1.2-liter Revotron engine found in the Tata Tigor and Tiago models, producing 86 horsepower (64 kW; 87 PS) of power at 6,000 rpm and 113 N⋅m (83 lb⋅ft; 12 kg⋅m) of torque at 3,300 rpm. The Tata Altroz was tested by the Global NCAP in 2020 (similar to Latin NCAP 2013) in its basic safety specification of two airbags and ISOFIX anchorages as standard. It achieved five stars for adult occupant protection (becoming the second Indian car to do so) and three stars for child occupant protection. Its structure was rated as capable of withstanding further loadings. The car does not offer ESC or side airbags on any variant and does not offer three-point seatbelts in all seating positions   "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Altroz"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

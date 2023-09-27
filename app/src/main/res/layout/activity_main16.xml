@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="The Porsche Macan (Type 95B) is a compact luxury crossover SUV (D-segment) produced by German manufacturer Porsche, a luxury car marque of Volkswagen Group since February 2014. Initially announced in November 2010 as a development project, and formally announced by Porsche in March 2011, the 'Macan' model name was decided in 2012 and is derived from the Indonesian word for tiger. The Macan was originally known by its code name Cajun, a portmanteau of Cayenne Junior or comes from a name of a member of ethnic group descended from Acadia living in the U.S. state of Louisiana (not to be confused with Porsche-Diesel Junior tractor).  The production version of the Macan was unveiled at the 2013 Los Angeles Auto Show and 2013 Tokyo Motor Show. European models went on sales in spring 2014 and the initial line-up of models included the Macan S and Macan Turbo. U.S market models arrived at dealerships in late spring 2014 as 2015 model year vehicle. Early models included Macan S and Macan Turbo.  The Porsche Macan shares its platform and wheelbase with the first generation Audi Q5 (2008–2017). The suspension configuration is based on, and heavily modified from the Audi, but the engine, transfer case, suspension tuning, interior and exterior body are unique to the Macan. It is also 1.7 in (43 mm) longer and 1.4 in (36 mm) wider than a Q5. The Macan has been described as an &quot;SUV&quot; and a &quot;soft-roader&quot; by the Sunday Times,]whilst the Guardian described it as a &quot;compact sports utility vehicle&quot; and a &quot;small SUV&quot;, and the Daily Telegraph described it as a &quot;sporty 4x4&quot; and &quot;not a faux-by-four&quot;. The Macan is produced alongside the Panamera which it shares a strong resemblance, in Leipzig, Germany in a newly extended factory. The Macan is also intended to be 'sportier' than the Cayenne; for instance the Macan has a standard 7-speed dual-clutch PDK gearbox, which is more responsive, while the Cayenne has an 8-speed Tiptronic transmission for smoother shifts.  In July 2018, Porsche announced that more than 350,000 units of the Macan have been delivered worldwide since 2014, with over 100,000 deliveries in the Chinese market alone.  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Macan GT-S"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

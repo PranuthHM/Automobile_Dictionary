@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="The Porsche Boxster and Cayman are mid-engine two-seater sports cars manufactured and marketed by German automobile manufacturer Porsche across four generations—as a two-door, two-seater roadster (Boxster) and a three-door, two-seater fastback coupé (Cayman). The first generation Boxster was introduced in 1996; the second generation Boxster and the Cayman arrived in late 2005; and the third generation launched in 2012. Since the introduction of the fourth generation in 2016, the two models have been marketed as the Porsche 718 Boxster and Porsche 718 Cayman. The nameplate Boxster is a portmanteau of boxer, a reference to its flat or boxer engine, and roadster, a reference to the body style. The nameplate Cayman is an alternative spelling of caiman, a member of the alligator family. First launched in 2005 for the 2006 model year, the Cayman is a coupé derived from Porsche's second and third generation Boxster roadster, styled in its first iteration by Pinky Lai. All Caymans up to 2012 were manufactured in Finland by Valmet Automotive. As Volkswagen assumed control of Porsche AG, production of Caymans and Boxster’s after 2012 began in the former Karmann plant in Osnabrück, Germany, at the time owned by Volkswagen and also used for production of the 2012 Golf (Mk6) convertible. The car is not named after the Cayman Islands. Both the car and the islands are named after the caiman, a member of the alligator family. When the Cayman arrived at dealerships for sale, the automaker adopted four caimans at Stuttgart's Wilhelma Zoo.  Porsche brought an infringement lawsuit in 2009 against Crocs, the maker of the popular rubber shoes. At issue was the footwear company's clog name also called Cayman. An injunction was granted against Crocs Europe, a division of the Longmont, Colorado-based shoe company preventing their use in Germany of the Cayman name  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="718 Cayman GT4"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

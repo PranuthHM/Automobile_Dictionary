@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="The Tesla Model Y is a battery electric compact crossover manufactured by Tesla, Inc. Unveiled in March 2019, it started production at its Fremont plant in January 2020, and started deliveries on March 13, 2020.  The Model Y is based on the Model 3 sedan platform. It shares an estimated 75 percent of its parts with the Tesla Model 3, which includes a similar interior and exterior design and electric powertrain. The Model Y fills a smaller and less expensive segment than the mid-sized Tesla Model X. Like the Model X, the Model Y offers optional third-row seats for a seven-passenger seating capacity. In the first quarter of 2023, the Model Y outsold the Toyota Corolla to become the world's best-selling car, the first ever electric vehicle to claim the title. On March 14, 2019, Elon Musk premiered the Tesla Model Y at an event at Tesla's design studio in Hawthorne, CA, where specifications were announced and the vehicle was shown. Test drives of multiple Model Y vehicles were also offered to attendees after the presentation. Due to its larger size, the Y consumes more energy than the 3, and thus has shorter range. The Fremont factory was changed to accommodate production of the Y.  On March 13, 2020, Tesla made their first deliveries of the Model Y, along with publishing its owner's manual. Tesla originally announced plans at the unveil to assemble the Model Y at Giga Nevada (in Sparks, Nevada), along with the battery and drivetrain for the vehicles, unlike the Model 3, where drivetrains and batteries are assembled at Giga Nevada, with final assembly completed at the Tesla Factory in Fremont, California. Two months later, in May 2019, Tesla said that they instead planned to shuffle production lines at the Tesla Fremont Factory to make space for Model Y production.  On January 29, 2020, Tesla reported in its Q4 2019 earnings report that Model Y production had already started in the Fremont factory, that one can now place an order for their premium versions with all-wheel drive, and that delivery of Model Y would begin in Q1 2020.  In November 2019, Tesla announced that the Tesla Model Y would be the first vehicle to be assembled at the first European Gigafactory, Giga Berlin. United States deliveries started in March 2020 for the Long Range AWD version and the Performance version. Later in 2020, Tesla began shipping cars to the Canadian and Mexican markets    "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tesla Model-Y"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="The Tesla Model X is a battery electric mid-size luxury crossover SUV produced by Tesla, Inc. since 2015. Developed from the full-sized sedan platform of the Tesla Model S, the vehicle notably uses falcon wing doors for passenger access. The Model X has an EPA size class as an SUV, and shares around 30 percent of its content with the Model S, half of the originally planned 60 percent, and weighs about 10 percent more. Both the Model X and Model S are produced at the Tesla Factory in Fremont, California. The prototype was unveiled at Tesla's design studios in Hawthorne, California on February 9, 2012.[9][10] First deliveries of the Model X began in September 2015. After one full year on the market, in 2016, the Model X ranked seventh among the world's best-selling plug-in cars.  As of May 2023, the Model X is only available as the Long Range with an estimated EPA range of 351 miles (565 km) and the Plaid model with an estimated EPA range of 333 miles (536 km). Both come with Tesla's Autopilot driver assistance system.  A series production vehicle was unveiled on September 29, 2015. It has a panoramic windshield. According to Tesla CEO Elon Musk, it is the safest SUV in terms of frontal and side impact crash, being more than twice as safe as the next closest SUV in rollover tests as well. The Model X does come with Autopilot as standard, and has an optional full self-driving system. The Model X has standard a collision avoidance system that uses radar-based autonomous emergency braking (AEB) and side-directed ultrasound detection that steers the car away from threats. Tesla uses a wide-band radar system to help prevent the falcon wing doors from hitting nearby objects when opening or closing. The Model X has double-hinged falcon wing doors which open upwards, allowing the leading edge of the door to remain tucked close to the body, unlike traditional gull-wing doors. Tesla claims the falcon-wing (modified gull-wing) doors ease access to the vehicle by having the door raise up vertically, rather than swinging out hinged at the front, which tremendously reduces accessibility. The Model X offers room for seven adults and their luggage in three rows of seating and front and rear trunks.  As of mid 2021 it's the largest fully electric SUV in terms of exterior dimensions.   "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tesla Model-X"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

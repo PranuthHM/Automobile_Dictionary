@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="The Toyota Fortuner, also known as the Toyota SW4, is a mid-size SUV manufactured by the Japanese automaker Toyota since 2004. Built on the Hilux pickup truck platform, it features two/three rows of seats and is available in either rear-wheel drive or four-wheel drive configuration. It is a part of Toyota's IMV project for emerging markets, which also includes the Hilux and the Innova. The name Fortuner is derived from the English word fortune. While the first-generation Fortuner was developed in Thailand by Thai and Japanese engineers, its facelifted version, as well as the Hilux and Innova, was designed in Australia by Toyota Australia, which is also responsible for developing the second-generation model.  For the medium body-on-frame SUV segment, Toyota offers the Hilux Surf/4Runner (Japan/North America) and the Land Cruiser Prado (Europe and Australasia). However, in some Central and South American countries and New Zealand, Toyota offers the Fortuner alongside the 4Runner and/or Prado, like in Peru, Panama, Ecuador, Colombia, El Salvador and Guatemala. At first, the Fortuner was sold with 4 different types of 2 petrol engines and 2 diesel engines. All variants were offered in 4×2 (RWD) or 4×4 configuration, with 5-speed manual transmission and a 4 or 5-speed automatic transmission. In August 2012, the 2.5-litre common-rail turbodiesel 2KD-FTV engine was upgraded to a variable nozzle turbocharger (VNT) which was already equipped in the 3.0-litre common-rail turbo diesel 1KD-FTV since its introduction in 2005 to increase power and torque about 60%, also reducing fuel consumption up to 30%. With this VNT equipment, the Fortuner could now accelerate from 0–100 km/h (0–62 mph) in about 11 seconds (less than 10 seconds for 3.0-litre engine). It was launched to commemorate Pertamina's successful expedition from Jakarta, Indonesia to Rome, Italy (a distance of roughly 20,000 km; 12,000 miles) using a group of Fortuners.    "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Fortuner"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

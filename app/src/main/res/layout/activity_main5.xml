@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.81"
+        android:background="@drawable/tesback"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tesback"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="408dp"
+        android:layout_height="98dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/teslalogo" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/models" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/model3" />
+
+    <Button
+        android:id="@+id/ms"
+        android:layout_width="177dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Click Here for more info on  Model-S"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/m3"
+        android:layout_width="176dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:text="Click Here for more info on  Model-3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toEndOf="@+id/ms"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ms"
+        app:srcCompat="@drawable/modelx" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/m3"
+        app:srcCompat="@drawable/modely" />
+
+
+    <Button
+        android:id="@+id/mx"
+        android:layout_width="179dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:text="Click Here for more info on  Model-X"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/my"
+        android:layout_width="178dp"
+        android:layout_height="53dp"
+        android:text="Click Here for more info on  Model-Y"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.624"
+        app:layout_constraintStart_toEndOf="@+id/mx"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

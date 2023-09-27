@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="The Porsche Panamera is a mid/full-sized luxury car (E-segment or F-segment for LWB in Europe) manufactured and marketed by German automobile manufacturer Porsche across two generations using a front-engine, rear or all-wheel drive configuration. Porsche debuted the production first generation Panamera at the 13th Auto Shanghai International Automobile Show in April 2009,  launching hybrid and diesel versions in 2011. In April 2013, the company introduced a facelifted model, again at the Shanghai Auto Show, followed by the US introduction of a plug-in hybrid version, the Panamera S E-Hybrid, in November 2013. Porsche introduced the second generation Panamera in 2016. The Panamera name, as with the Carrera name, derives from the Carrera Panamericana race. In 2008, Porsche AG announced the development of a parallel hybrid system for the Panamera, and in February 2011, Porsche unveiled the Panamera S Hybrid. Using the same drivetrain seen in the Cayenne S Hybrid—an Audi-sourced supercharged 3.0-litre V6 engine producing 333 PS (245 kW; 328 hp) along with an electric motor rated at 47 PS (35 kW; 46 hp), as well as the Cayenne's 8-speed Tiptronic S transmission—the 380 PS (279 kW; 375 hp) Panamera S Hybrid could accelerate from 0–62 mph (100 km/h) in 6.0 seconds. The Panamera S Hybrid produced only 193 grams of carbon dioxide per kilometre, rendering it the most environment friendly car in the then entire Porsche model range, while still maintaining a top speed of 167.8 mph (270 km/h). Deliveries began in the United States in 2011, and cumulative sales reached 684 units through March 2013. The U.S. Environmental Protection Agency (EPA) rated the fuel economy for the 2013/2012 model year Panamera Hybrid at 22 mpg US (11 L/100 km; 26 mpg imp) for city driving, 30 mpg US (7.8 L/100 km; 36 mpg imp) for highway, and 25 mpg US (9.4 L/100 km; 30 mpg imp) combined   "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Panemera Turbo-S"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

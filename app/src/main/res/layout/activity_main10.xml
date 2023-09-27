@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="The Tesla Model S is an electric executive car built by Tesla, Inc. since 2012. The Model S features a battery-powered dual-motor, all-wheel drive layout, although earlier versions featured a rear-motor and rear-wheel drive layout. It has a lift back body style. Development of the Model S began prior to 2007, under the codename &quot;White Star&quot;. The Model S was officially announced on June 30, 2008, and a prototype vehicle was unveiled in March 2009. The Model S debuted on June 22, 2012. A revised, dual-motor, all-wheel-drive version, known as the 60D, debuted on October 9, 2014. The 60D was followed by the 70D, which made dual-motor and all-wheel drive the standard, followed by the 85D, P85D, and P90D. Along with these updates, Tesla offered the Autopilot driving assistance system. In April 2016, the Model S was updated with a new front hood design. In October of the same year, hardware became standard that supports Tesla's Full Self Driving (FSD) capability. As part of the update, integrated standard cameras around the car were added. In February 2017 the Tesla Model S P100D debuted, which included a revised motor and was the first electric vehicle to have an EPA estimated range exceeding 300 miles (483 km). A refresh of the Tesla Model S, codenamed &quot;Palladium&quot;, was introduced in June 2021, offering a new &quot;Plaid and Plaid+&quot; performance model, along with a revised interior, powertrain, and suspension. The Model S became the first electric car to top the monthly new-car-sales ranking in any country, leading twice in Norway, in September and December 2013 and in Denmark in December 2015.[13] Sales passed 250,000 units in September 2018. The Model S was the top-selling plug-in electric car worldwide in 2015 and 2016, although it was later surpassed by the Model 3. Upon its release, the Model S received positive reviews, with praise for its acceleration and range, although initial models received criticism for their high cost and braking issues.  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tesla Model-S"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

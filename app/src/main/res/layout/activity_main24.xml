@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity18">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="409dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="24dp"
+        android:text="The Toyota Alphard (Japanese:  Hepburn: Toyota Arufādo) is a minivan produced by the Japanese automaker Toyota since 2002. It is available as a seven or eight-seater with petrol and hybrid engine options. Hybrid variants have been available since 2003, which incorporates Toyota's Hybrid Synergy Drive technology. It is Toyota's flagship minivan.  The Alphard is primarily made for the Japanese market, but is also sold in many Asian countries, Belarus, Russia, and the Middle East. Similar to the Camry, it is often regarded as a luxury car in Southeast Asian markets. The Alphard was launched by Toyota on 22 May 2002. Developed under the lead of chief engineer Hideyuki Iwata, the first-generation model was based on the second-generation Previa/Estima, which shared turn shares many components with the Camry Since the second generation, a twin model called Toyota Vellfire (Japanese: , Hepburn: Toyota Verufaia) has also been available, which is marketed as a sportier alternative to the Alphard and exclusively marketed by the Netz Store dealership chain until 2020. Since 2019, a modified and more upscale version of the third-generation model has been sold as the Lexus LM for several Asian markets outside Japan. The vehicle was named after Alphard, the brightest star in the constellation Hydra. The Alphard wears a special front emblem which depicts the lowercase alpha letter.\ The name &quot;Vellfire&quot; was derived from &quot;velvet&quot; and &quot;fire&quot; to emphasize &quot;smooth&quot; and &quot;passionate&quot; as characteristics of the vehicle.   "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link17"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Velfire"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

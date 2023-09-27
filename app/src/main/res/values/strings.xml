@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AutoDict</string>
+    <string name="link"> <a href="https://www.youtube.com/watch?v=dP0deOQkZtQ">click here to Know more about Tesla Model-S</a> </string>
+    <string name="link1"> <a href="https://www.youtube.com/watch?v=kbulCM90w8w">click here to Know more about Tesla Model-3</a> </string>
+    <string name="link2"> <a href="https://www.youtube.com/watch?v=hmd3mks6HPs">click here to Know more about Tesla Model-X</a> </string>
+    <string name="link3"> <a href="https://www.youtube.com/watch?v=PZ8NPeYFPCY">click here to Know more about Tesla Model-Y</a> </string>
+
+
+    <string name="link4"> <a href="https://www.youtube.com/watch?v=1rbTL_Q09Xg">click here to Know more about 718 Cayman GT4</a> </string>
+    <string name="link5"> <a href="https://www.youtube.com/watch?v=lG-2q9jj4ik">click here to Know more about Panemera Turbo-S</a> </string>
+    <string name="link6"> <a href="https://www.youtube.com/watch?v=n0GfR7IG5d4">click here to Know more about Macan GT-S</a> </string>
+    <string name="link7"> <a href="https://www.youtube.com/watch?v=R1TYDlhWyeg">click here to Know more about Cayenne</a> </string>
+
+    <string name="link11"> <a href="https://www.youtube.com/watch?v=NB1l4eFmSdk">click here to Know more about Hexa</a> </string>
+    <string name="link12"> <a href="https://www.youtube.com/watch?v=jA9CXgdN7Us">click here to Know more about Altroz</a> </string>
+    <string name="link13"> <a href="https://www.youtube.com/watch?v=giq7tvdB9F0">click here to Know more about Tiago</a> </string>
+    <string name="link14"> <a href="https://www.youtube.com/watch?v=9JlAV-UeMHk">click here to Know more about Harrier</a> </string>
+
+    <string name="link15"> <a href="https://www.youtube.com/watch?v=LTzSzkkCHGM">click here to Know more about Fortuner</a> </string>
+    <string name="link16"> <a href="https://www.youtube.com/watch?v=7_8D5vH8wPg">click here to Know more about Innova Crysta</a> </string>
+    <string name="link17"> <a href="https://www.youtube.com/watch?v=1i1PDPrbeLM">click here to Know more about Velfire</a> </string>
+
+    <string name="link18"> <a href="https://www.youtube.com/watch?v=NPl9J3DDqYg">click here to Know more about Wagon-R</a> </string>
+    <string name="link19"> <a href="https://www.youtube.com/watch?v=Ag6prkgmeKs">click here to Know more about Swift</a> </string>
+    <string name="link20"> <a href="https://www.youtube.com/watch?v=j5PcQyfKigI">click here to Know more about Breeza</a> </string>
+
+
+</resources>
